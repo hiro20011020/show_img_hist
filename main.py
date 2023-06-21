@@ -34,5 +34,6 @@ if color == 'G':
     df_hist = pd.DataFrame(hist_green)
     st.bar_chart(df_hist)
 if color == 'B':
-    df_hist = pd.DataFrame(hist_blue)
+    df_hist = pd.DataFrame(hist_bslue)
     st.bar_chart(df_hist)
+#tests
