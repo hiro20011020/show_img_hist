@@ -13,7 +13,8 @@ st.image(im, caption='image from wikimedia commons',
          use_column_width=True)
 
 
-# show histgram of all colors
+# show histgram of all colors 
+#this is test
 hist_red, _ = np.histogram(im[:, :, 0], bins=64)
 hist_green, _ = np.histogram(im[:, :, 1], bins=64)
 hist_blue, _ = np.histogram(im[:, :, 2], bins=64)
@@ -36,4 +37,3 @@ if color == 'G':
 if color == 'B':
     df_hist = pd.DataFrame(hist_bslue)
     st.bar_chart(df_hist)
-#tests
