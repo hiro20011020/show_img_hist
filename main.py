@@ -7,7 +7,7 @@ from skimage.io import imread
 # download the image
 img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mount_Fuji_from_Mount_Aino.jpg/640px-Mount_Fuji_from_Mount_Aino.jpg'
 
-im = imread(img_url)
+im = imread(img_url))
 
 st.image(im, caption='image from wikimedia commons',
          use_column_width=True)
@@ -35,5 +35,5 @@ if color == 'G':
     df_hist = pd.DataFrame(hist_green)
     st.bar_chart(df_hist)
 if color == 'B':
-    df_hist = pd.DataFrame(hist_bslue)
+    df_hist = pd.DataFrame(hist_blue)
     st.bar_chart(df_hist)
